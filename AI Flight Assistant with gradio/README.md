@@ -11,6 +11,12 @@ The assistant can:
 
 ---
 
+## Screenshot
+
+![FlightAI Assistant screenshot](screenshot.png)
+
+---
+
 ## How it works
 
 1. The user sends a message through the Gradio chat UI.
@@ -41,6 +47,8 @@ The assistant can:
 ```
 AI Flight Assistant with gradio/
 ├── AI_Assitant.ipynb   # Main notebook: all logic + Gradio UI
+├── README.md
+├── screenshot.png
 └── prices.db           # SQLite database of ticket prices (auto-created on first run)
 ```
 

@@ -76,7 +76,7 @@ Add your fourth screenshot here (quality score, strengths, issues, recommendatio
 ![Quality report](screenshots/quality-report-tab.png)
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component        | Tool/Library                     |
 |-------------------|-----------------------------------|
@@ -86,7 +86,7 @@ Add your fourth screenshot here (quality score, strengths, issues, recommendatio
 | Data handling     | pandas                           |
 | Config            | python-dotenv                    |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 
@@ -120,7 +120,7 @@ python app.py
 
 Then open the local URL shown in your terminal (typically `http://127.0.0.1:7861`).
 
-## 🎯 Usage
+## Usage
 
 1. Go to the **Generate** tab.
 2. Describe the dataset you want, e.g.:
@@ -129,7 +129,7 @@ Then open the local URL shown in your terminal (typically `http://127.0.0.1:7861
 4. Click **Generate Dataset**.
 5. Review results in the **Dataset**, **Schema**, and **Quality Report** tabs.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 synthetic-data-foundry/
@@ -139,7 +139,7 @@ synthetic-data-foundry/
 └── README.md
 ```
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 The built-in AI quality critic currently flags a few recurring issues worth being aware of:
 
@@ -147,16 +147,7 @@ The built-in AI quality critic currently flags a few recurring issues worth bein
 - Target variable class balance isn't guaranteed to match real-world base rates unless explicitly prompted for.
 - Some continuous fields may generate unrealistic decimal precision for values normally recorded as integers (e.g. blood pressure).
 
-**Planned improvements:**
-- [ ] Add explicit prompting for realistic noise/variation in numeric fields.
-- [ ] Let users specify target class balance.
-- [ ] Add column-level type/precision hints (e.g. force integers where appropriate).
-- [ ] Add a CSV/JSON export button in the UI.
 
-## 📄 License
-
-Add your preferred license here (e.g. MIT).
-
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Built with [OpenAI](https://openai.com), [Anthropic Claude](https://anthropic.com), and [Gradio](https://gradio.app).

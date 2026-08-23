@@ -49,42 +49,36 @@ User description
 ```
 
 ### 1. Generate tab — describe your dataset
-Add your first screenshot here (dataset description + number of records + "Generate Dataset" button):
 
-```md
 ![Generate tab](screenshots/generate-tab.png)
-```
+
 
 ### 2. Dataset tab — preview generated rows
-Add your second screenshot here (the resulting table of synthetic rows):
 
-```md
+
 ![Dataset preview](screenshots/dataset-tab.png)
-```
+
 
 ### 3. Schema tab — view the generated JSON schema
-Add your third screenshot here (the auto-designed schema in JSON):
 
-```md
 ![Schema output](screenshots/schema-tab.png)
-```
+
 
 ### 4. Quality Report tab — AI-generated critique
-Add your fourth screenshot here (quality score, strengths, issues, recommendations):
 
-```md
+
 ![Quality report](screenshots/quality-report-tab.png)
-```
+
 
 ## Tech Stack
 
-| Component        | Tool/Library                     |
-|-------------------|-----------------------------------|
-| UI                | [Gradio](https://gradio.app)     |
-| LLM Provider 1    | OpenAI (`gpt-5.4-mini`)          |
+| Component         | Tool/Library                          |
+|-------------------|-------------------------------------- |
+| UI                | [Gradio](https://gradio.app)          |
+| LLM Provider 1    | OpenAI (`gpt-5.4-mini`)               |
 | LLM Provider 2    | Anthropic Claude (`claude-haiku-4-5`) |
-| Data handling     | pandas                           |
-| Config            | python-dotenv                    |
+| Data handling     | pandas                                |
+| Config            | python-dotenv                         |
 
 ## Getting Started
 

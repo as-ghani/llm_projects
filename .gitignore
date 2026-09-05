@@ -15,3 +15,7 @@ wheels/
 
 # OS-specific
 .DS_Store
+
+# Vector store (regenerate with `uv run implementation/ingest.py`)
+vector_db/
+

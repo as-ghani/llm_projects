@@ -18,4 +18,7 @@ wheels/
 
 # Vector store (regenerate with `uv run implementation/ingest.py`)
 vector_db/
+products_vectorstore/
+Thumbs.db
 
+memory.json

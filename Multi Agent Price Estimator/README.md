@@ -307,8 +307,4 @@ sample data (the `ed-donner/items_lite` dataset and DealNews RSS feeds) from
 Ed Donner's LLM Engineering course.
  
  
-## License
- 
-This project is licensed under the MIT License. See the `LICENSE` file for
-details.
  
